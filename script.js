@@ -36,5 +36,3 @@ function encode(str) {
 function decode(str) {
 	return "";
 }
-
-console.log(encode("Ngolo"));
