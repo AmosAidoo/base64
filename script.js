@@ -24,7 +24,6 @@ function encode(str) {
 				.map((e)=>{return e.toString(2).padStart(8, '0')})
 				.join("") + '0'.repeat(zeros);
 
-	console.log(bitString);
 	//Split encoding into a sequence of 6 groups
 	let encoding = bitString.match(/.{6}/g);
 	
