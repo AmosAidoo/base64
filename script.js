@@ -13,7 +13,7 @@ function encode(str) {
 	
 	let padding = (8*(n+extraN)) - (8*n);
 	let zeros = 0;
-	console.log("extraN = " + extraN);
+
 	//Determine the number of zeroes to append
 	if (padding == 16) zeros = padding - 12;
 	else if (padding == 8) zeros = padding - 6;
